@@ -28,10 +28,14 @@ https://arxiv.org/abs/2102.09209
 
 
 ## Prerequisites / Installation
-TensorFlow 1
+TensorFlow 2
 ```shell
 $ pip install tensorflow==2.3.1
+pip install scipy==1.6.3
+pip install matplotlib==3.4.2
 ```
+
+
 
 # Citation
 Please cite Deep Equilibrium Nets in your publications if it helps your research:
