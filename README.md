@@ -31,12 +31,8 @@ https://arxiv.org/abs/2102.09209
 TensorFlow 2
 ```shell
 $ pip install tensorflow==2.3.1
-```
-```shell
-pip install scipy==1.6.3
-```
-```shell
-pip install matplotlib==3.4.2
+$ pip install scipy==1.6.3
+$ pip install matplotlib==3.4.2
 ```
 
 
