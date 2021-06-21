@@ -26,6 +26,10 @@ https://arxiv.org/abs/2102.09209
     * heston | ['strike', 'rf', 'dividend', 'v0', 'T', 'kappa', 'theta', 'sigma', 'rho', 'S']
     * bdjm |  ['strike', 'rf', 'dividend', 'v0', 'T', 'kappa', 'theta', 'sigma', 'rho', 'lambda_parameter', 'nuUp', 'nuDown', 'p', 'S']
 
+## Parameter range
+
+Surrogate models are defined inside some specific range of parameters. Both models in this surrogate library have been trained inside the range defined in the table below. The surrogate can not price an option with parameters outside of this range of parameters. 
+
 | Parameter| Min | Max  |
 | --------- |:------:| ------:|
 | T      | 1 | 380 |
@@ -39,12 +43,6 @@ https://arxiv.org/abs/2102.09209
 | nuUp | 0.0 | 0.4 |
 | nuDown | 0.0 | 0.4 |
 | p | 0.0 | 1.0 |
-
-
-        check_dict = {'T':[1,380], 'rf':[0.0,0.75], 'dividend':[0.0,0.05], 'v0':[0.01,0.9],
-         'kappa':[0.1,50.0], 'sigma':[0.1,5.0], 'rho':[-1.0,0.0], 'theta':[0.01,0.9], 'lambda_parameter':[0.05,4.0],
-         'nuUp':[0.0,0.4], 'nuDown':[0.0,0.4], 'p':[0.0,1.0]}
-
 
 
 ## Prerequisites / Installation
