@@ -1,4 +1,4 @@
-# Deep-Structural-Estimation
+# Deep Structural Estimation: With an Application to Option Pricing
 
 ## The full paper can be found here
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3782722
@@ -53,9 +53,22 @@ $ pip install scipy==1.6.3
 $ pip install matplotlib==3.4.2
 ```
 
+# Support
+This work is generously supported by grants from the Swiss Platform for Advanced Scientific
+Computing (PASC) under project ID “Computing equilibria in heterogeneous agent macro models on con-
+temporary HPC platforms”, the Swiss National Supercomputing Center (CSCS) under project ID 995, and
+the Swiss National Science Foundation under project ID “New methods for asset pricing with frictions”.
 
 
 # Citation
-Please cite Deep Equilibrium Nets in your publications if it helps your research:
+Please cite Deep Structural Estimation: With an Application to Option Pricing in your publications if it helps your research:
 
 Chen, Hui and Didisheim, Antoine and Scheidegger, Simon, Deep Structural Estimation: With an Application to Option Pricing (Mar 12, 2021). Available at SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3782722 or https://arxiv.org/abs/2102.09209
+```
+@article{chen2021deep,
+  title={Deep Structural Estimation: With an Application to Option Pricing},
+  author={Chen, Hui and Didisheim, Antoine and Scheidegger, Simon},
+  journal={Available at SSRN},
+  year={2021}
+}
+```
