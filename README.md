@@ -68,7 +68,7 @@ Chen, Hui and Didisheim, Antoine and Scheidegger, Simon, Deep Structural Estimat
 @article{chen2021deep,
   title={Deep Structural Estimation: With an Application to Option Pricing},
   author={Chen, Hui and Didisheim, Antoine and Scheidegger, Simon},
-  journal={Available at SSRN},
+  journal={Available at SSRN 3782722},
   year={2021}
 }
 ```
