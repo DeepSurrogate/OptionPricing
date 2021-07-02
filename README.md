@@ -47,8 +47,11 @@ Surrogate models are defined inside some specific range of parameters. Both mode
 
 Where 
 
-![equation]<a href="https://www.codecogs.com/eqnedit.php?latex=m=\frac{\ln&space;\left(\hat{K}&space;/&space;F_{T}\right)}{\sqrt{T}&space;\sigma_{a&space;t&space;m}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m=\frac{\ln&space;\left(\hat{K}&space;/&space;F_{T}\right)}{\sqrt{T}&space;\sigma_{a&space;t&space;m}}" title="m=\frac{\ln \left(\hat{K} / F_{T}\right)}{\sqrt{T} \sigma_{a t m}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=m=\frac{\ln&space;\left(\hat{K}&space;/&space;F_{T}\right)}{\sqrt{T}&space;\sigma_{a&space;t&space;m}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?m=\frac{\ln&space;\left(\hat{K}&space;/&space;F_{T}\right)}{\sqrt{T}&space;\sigma_{a&space;t&space;m}}" title="m=\frac{\ln \left(\hat{K} / F_{T}\right)}{\sqrt{T} \sigma_{a t m}}" /></a>
 
+and, 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{K}=100&space;\frac{K}{S}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{K}=100&space;\frac{K}{S}" title="\hat{K}=100 \frac{K}{S}" /></a>
 
 ## Prerequisites / Installation
 TensorFlow 2
