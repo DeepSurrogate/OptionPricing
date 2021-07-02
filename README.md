@@ -47,6 +47,8 @@ Surrogate models are defined inside some specific range of parameters. Both mode
 
 Where 
 
+<img src="https://latex.codecogs.com/gif.latex?m=\frac{\ln \left(\hat{K} / F_{T}\right)}{\sqrt{T} \sigma_{a t m}} " /> 
+
 ```math
 m=\frac{\ln \left(\hat{K} / F_{T}\right)}{\sqrt{T} \sigma_{a t m}}
 ```
