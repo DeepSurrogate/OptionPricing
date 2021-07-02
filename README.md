@@ -35,6 +35,7 @@ Surrogate models are defined inside some specific range of parameters. Both mode
 | T      | 1 | 380 |
 | M      | -9.0 | 5.0 |
 | rf      | 0.0      |   0.075 |
+| d      | 0.0      |   0.075 |
 | v_t| 0.01 | 0.90 |
 | kappa| 0.1 | 50.0 |
 | sigma| 0.1 | 5.0 |
