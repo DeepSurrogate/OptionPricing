@@ -33,6 +33,7 @@ Surrogate models are defined inside some specific range of parameters. Both mode
 | Parameter| Min | Max  |
 | --------- |:------:| ------:|
 | T      | 1 | 380 |
+| M      | -9.0 | 5.0 |
 | rf      | 0.0      |   0.075 |
 | v_t| 0.01 | 0.90 |
 | kappa| 0.1 | 50.0 |
@@ -43,6 +44,12 @@ Surrogate models are defined inside some specific range of parameters. Both mode
 | nuUp | 0.0 | 0.4 |
 | nuDown | 0.0 | 0.4 |
 | p | 0.0 | 1.0 |
+
+Where 
+
+```math
+m=\frac{\ln \left(\hat{K} / F_{T}\right)}{\sqrt{T} \sigma_{a t m}}
+```
 
 
 ## Prerequisites / Installation
