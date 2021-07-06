@@ -1,4 +1,7 @@
 # Deep Structural Estimation: With an Application to Option Pricing
+![alt text](https://github.com/DeepStructuralEstimation/OptionPricing/blob/main/example/example.png)
+The figure above the implied volatility surface of the Bates model with Double Jump Exponential generated with QuantLib (left) and the Deep-Surrogate (right)
+
 
 ## The full paper can be found here
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3782722
