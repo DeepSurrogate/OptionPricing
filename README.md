@@ -12,7 +12,7 @@ https://arxiv.org/abs/2102.09209
 * Simon Scheidegger (Department of Economics, HEC Lausanne, simon.scheidegger@unil.ch)
 
 ## Instruction
-* Download th git repository and set it in your project working directory. 
+* Download or fork the git repository and set it in your project working directory. 
 * In your python code, import the surrogate class with: *from source.deepsurrogate import DeepSurrogate*
 * Define model_name *'heston'* or *'bdjm'* to load pre-trained surrogate. 
 * Instantiate a surrogate object with:  *surrogate = DeepSurrogate(model_name)*
