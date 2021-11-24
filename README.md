@@ -29,6 +29,10 @@ https://arxiv.org/abs/2102.09209
     * heston | ['strike', 'rf', 'dividend', 'v0', 'T', 'kappa', 'theta', 'sigma', 'rho', 'S']
     * bdjm |  ['strike', 'rf', 'dividend', 'v0', 'T', 'kappa', 'theta', 'sigma', 'rho', 'lambda_parameter', 'nuUp', 'nuDown', 'p', 'S']
 
+## Example
+
+demo.ipynb, test_delta.py, test_delta_iv.py, test_iv.py and test_price.py illustrate how to easily use the library. 
+
 ## Parameter range
 
 Surrogate models are defined inside some specific range of parameters. Both models in this surrogate library have been trained inside the range defined in the table below. The surrogate can not price an option with parameters outside of this range of parameters. 
