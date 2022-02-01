@@ -1,4 +1,4 @@
-# Deep Surrogate: With an Application to Option Pricing
+# Deep Surrogate for Asset Pricing
 ![alt text](https://github.com/DeepSurrogateEstimation/OptionPricing/blob/main/example/example.png)
 The figure above the implied volatility surface of the Bates model with Double Jump Exponential generated with QuantLib (left) and the Deep-Surrogate (right)
 
