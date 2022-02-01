@@ -1,5 +1,5 @@
-# Deep Structural Estimation: With an Application to Option Pricing
-![alt text](https://github.com/DeepStructuralEstimation/OptionPricing/blob/main/example/example.png)
+# Deep Surrogate: With an Application to Option Pricing
+![alt text](https://github.com/DeepSurrogateEstimation/OptionPricing/blob/main/example/example.png)
 The figure above the implied volatility surface of the Bates model with Double Jump Exponential generated with QuantLib (left) and the Deep-Surrogate (right)
 
 
@@ -77,7 +77,7 @@ the Swiss National Science Foundation under project ID “New methods for asset 
 
 
 # Citation
-Please cite Deep Structural Estimation: With an Application to Option Pricing in your publications if it helps your research:
+Please cite Deep Surrogate Estimation: With an Application to Option Pricing in your publications if it helps your research:
 
 Chen, Hui and Didisheim, Antoine and Scheidegger, Simon, Deep Structural Estimation: With an Application to Option Pricing (Mar 12, 2021). Available at SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3782722 or https://arxiv.org/abs/2102.09209
 ```
