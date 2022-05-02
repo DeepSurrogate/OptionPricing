@@ -45,6 +45,11 @@ class DeepSurrogate:
         X = self.pre_process_X(X)
         return self.c_model.get_grad_iv(X)
 
+    def get_iv_delta_and_pred(self, X):
+        X = self.pre_process_X(X)
+        return self.c_model.get_grad_iv(X,return_pred=True)
+
+
     def get_price_delta(self, X, var):
         if 'S' not in X.columns:
             X['S']=100.0

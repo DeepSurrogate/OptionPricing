@@ -273,7 +273,7 @@ class NetworkModel:
 
         return d
 
-    def get_grad_iv(self, X):
+    def get_grad_iv(self, X,return_pred =False):
         # extract bs input
         K = X['strike'].values
         S = X['S'].values
@@ -305,11 +305,10 @@ class NetworkModel:
 
         kk = K * S / 100
         d['S'] = d['strike']*(-(kk*100)/(S**2))
-
-
-
-
-        return d
+        if return_pred:
+            return d, pred
+        else:
+            return d
 
 
     def get_price(self, X):
